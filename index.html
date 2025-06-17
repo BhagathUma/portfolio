@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagath U - Full-Stack Developer</title>
+    <meta name="description" content="Bhagath U - Full-Stack Developer, AI Enthusiast, and Computer Science Student at VIT Chennai">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h3>Bhagath U</h3>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-toggle-icon">🌙</span>
+                </button>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="hero-name">Bhagath U</span></h1>
+                <p class="hero-tagline">Full-Stack Developer | AI Enthusiast | Computer Science Student</p>
+                <p class="hero-subtitle">Passionate CSE student at VIT Chennai with expertise in emerging technologies, programming, and machine learning</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn--primary">View My Work</a>
+                    <!-- <a href="#" class="btn btn--outline" id="download-resume">Download Resume</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Get to know more about who I am and what I do</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="fade-in-text">Hello! I'm Bhagath U</h3>
+                    <p class="fade-in-text" data-delay="200">I'm a passionate Computer Science Engineering student at VIT Chennai with an impressive 8.64 CGPA. My journey in technology is driven by curiosity and a deep fascination with emerging technologies, particularly in the realms of artificial intelligence and full-stack development.</p>
+                    <p class="fade-in-text" data-delay="400">With a strong foundation in programming and machine learning, I've been actively involved in various projects that showcase my skills in both frontend and backend development. My academic excellence, combined with hands-on project experience, has prepared me to tackle complex technical challenges.</p>
+                    <p class="fade-in-text" data-delay="600">When I'm not coding, I enjoy exploring the latest developments in AI and machine learning, contributing to open-source projects, and continuously learning new technologies to stay ahead in this rapidly evolving field.</p>
+                    
+                    <!-- Social Media Section -->
+                    <div class="social-media-section">
+                        <h4 class="fade-in-text" data-delay="800">Connect with me</h4>
+                        <div class="social-links-about">
+                            <a href="https://github.com/BhagathUma" class="social-link-glass" data-delay="1000" target="_blank">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/bhagath-uma-61b955245/" class="social-link-glass" data-delay="1200" target="_blank">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                                LinkedIn
+                            </a>
+                            <!-- <a href="#" class="social-link-glass" data-delay="1400" target="_blank">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                                </svg>
+                                Twitter
+                            </a> -->
+                            <a href="https://www.instagram.com/iambaggy21/" class="social-link-glass" data-delay="1600" target="_blank">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                </svg>
+                                Instagram
+                            </a>
+                            <a href="mailto:bhagathuma@gmail.com" class="social-link-glass" data-delay="1800">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-.904.732-1.636 1.636-1.636h.004L12 11.269l10.36-7.448h.004c.904 0 1.636.732 1.636 1.636z"/>
+                                </svg>
+                                Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item slide-in-stat" data-delay="1000">
+                        <div class="stat-number">8.64</div>
+                        <div class="stat-label">CGPA</div>
+                    </div>
+                    <div class="stat-item slide-in-stat" data-delay="1200">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item slide-in-stat" data-delay="1400">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills & Technologies</h2>
+                <p>Technologies I work with to bring ideas to life</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">Java</div>
+                        <div class="skill-item">C++</div>
+                        <div class="skill-item">C Programming</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">React</div>
+                        <div class="skill-item">Node.js</div>
+                        <div class="skill-item">Express.js</div>
+                        <div class="skill-item">HTML/CSS</div>
+                        <div class="skill-item">Bootstrap</div>
+                        <div class="skill-item">MERN Stack</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">MongoDB</div>
+                        <div class="skill-item">MySQL</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI & Machine Learning</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Machine Learning</div>
+                        <div class="skill-item">Deep Learning</div>
+                        <div class="skill-item">Neural Networks</div>
+                        <div class="skill-item">OpenCV</div>
+                        <div class="skill-item">LangChain</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>A collection of my recent work and contributions</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>PDF Summarizer using LangChain and RAG</h3>
+                        <span class="project-type">AI Project</span>
+                    </div>
+                    <p class="project-description">AI-powered document summarization using advanced NLP techniques and Retrieval-Augmented Generation</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">RAG</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">Live Demo</a>
+                        <a href="#" class="project-link" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Virtual Mouse</h3>
+                        <span class="project-type">Computer Vision</span>
+                    </div>
+                    <p class="project-description">Computer vision project for gesture-based mouse control using hand tracking</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">MediaPipe</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">Live Demo</a>
+                        <a href="#" class="project-link" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Food Recommendation System</h3>
+                        <span class="project-type">Deep Learning</span>
+                    </div>
+                    <p class="project-description">Deep learning system for personalized food recommendations using collaborative filtering</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Deep Learning</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">Live Demo</a>
+                        <a href="#" class="project-link" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Laws.io</h3>
+                        <span class="project-type">Full Stack</span>
+                    </div>
+                    <p class="project-description">Full-stack legal information website with comprehensive legal resources and tools</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">MERN</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Express.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">Live Demo</a>
+                        <a href="#" class="project-link" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Blood Cell Cancer Detection</h3>
+                        <span class="project-type">Medical AI</span>
+                    </div>
+                    <p class="project-description">Medical AI system for cancer detection in blood cells using DenseNet architecture</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">DenseNet</span>
+                        <span class="tech-tag">Medical AI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">Live Demo</a>
+                        <a href="#" class="project-link" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Fitness Tracker</h3>
+                        <span class="project-type">MERN Stack</span>
+                    </div>
+                    <p class="project-description">Full-stack fitness tracking application with comprehensive workout and nutrition management</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link" target="_blank">Live Demo</a>
+                        <a href="#" class="project-link" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Experience & Education</h2>
+                <p>My professional journey and academic background</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>B.Tech Computer Science & Engineering</h3>
+                        <h4>Vellore Institute of Technology, Chennai</h4>
+                        <p class="timeline-date">2022 - 2026</p>
+                        <p class="timeline-description">Currently pursuing bachelor's degree with an impressive CGPA of 8.64/10. Focusing on advanced topics in AI, machine learning, and full-stack development.</p>
+                    </div>
+                </div>
+                
+                <!-- <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Database Building/Management Associate</h3>
+                        <h4>Khel Raay (Virtual)</h4>
+                        <p class="timeline-date">Apr 2024 - May 2024</p>
+                        <p class="timeline-description">Tracked database and managed incoming APIs for online game trading website, ensuring data integrity and system reliability.</p>
+                    </div>
+                </div> -->
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Senior Secondary Education class XII</h3>
+                        <h4>Akshara Vidyaashram (CBSE)</h4>
+                        <p class="timeline-date">2022</p>
+                        <p class="timeline-description">Completed with 86.6% marks, demonstrating strong academic foundation in science and mathematics.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Senior Secondary Education class X</h3>
+                        <h4>Akshara Vidyaashram (CBSE)</h4>
+                        <p class="timeline-date">2020</p>
+                        <p class="timeline-description">Completed with 88.8% marks</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certifications">
+                <h3>Certifications</h3>
+                <div class="cert-grid">
+                    <div class="cert-item">
+                        <h4>OpenCV Bootcamp</h4>
+                        <p>OpenCV (Dec 2024)</p>
+                    </div>
+                    <div class="cert-item">
+                        <h4>Career Essentials in Software Development</h4>
+                        <p>Microsoft & LinkedIn (Aug 2024)</p>
+                    </div>
+                    <div class="cert-item">
+                        <h4>MERN Full Stack</h4>
+                        <p>Ethnus (Jun-Jul 2024)</p>
+                    </div>
+                    <div class="cert-item">
+                        <h4>Python & Data Visualization</h4>
+                        <p>Devtown (Sep 2021)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's discuss opportunities and collaborate on exciting projects</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <a href="mailto:bhagathuma@gmail.com">bhagathuma@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Phone:</strong>
+                        <a href="tel:+919487509386">+91 9487509386</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Location:</strong>
+                        <span>Chennai, India</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" target="_blank">GitHub</a>
+                        <a href="#" class="social-link" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name *</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email *</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject *</label>
+                        <input type="text" id="subject" name="subject" class="form-control" placeholder="Enter subject line" required>
+                        <span class="error-message" id="subject-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message *</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" placeholder="Enter your message here..." required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Bhagath U's Portfolio</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <span>↑</span>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
